@@ -1,0 +1,62 @@
+{
+  "name": "yibanchen-react-login",
+  "version": "0.1.0",
+  "main": "dist/index.js",
+  "module": "dist/index.js",
+  "description": "A React library for logging in via YibanChen/Polkadot wallet address verification",
+  "author": "devlooplava",
+  "keywords": [
+    "react",
+    "components",
+    "ui",
+    "Polkadot",
+    "Yibanchen"
+  ],
+  "private": false,
+  "dependencies": {
+    "@babel/polyfill": "^7.12.1",
+    "@polkadot/extension-dapp": "^0.39.2",
+    "@polkadot/react-identicon": "^0.84.3",
+    "@polkadot/util": "8.2.2",
+    "@polkadot/util-crypto": "8.2.2",
+    "bootstrap": "^5.1.0",
+    "prop-types": "^15.7.2",
+    "react": "^17.0.2",
+    "react-bootstrap": "^1.6.1",
+    "react-dom": "^17.0.2",
+    "react-modal": "^3.14.3",
+    "react-scripts": "4.0.3"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "rm -rf dist && NODE_ENV=production babel src/lib --out-dir dist --copy-files",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.14.8",
+    "@babel/core": "^7.15.0",
+    "@babel/preset-env": "^7.15.0",
+    "eslint-plugin-jest": "^24.4.0",
+    "prettier": "2.3.2"
+  },
+  "license": "Apache"
+}
